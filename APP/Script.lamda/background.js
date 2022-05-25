@@ -1,10 +1,10 @@
 'use strict';
 
-const SEARCH_URL_MATCH = 'duckduckgo.com/?q=';
+const SEARCH_URL_MATCH = 'google.com/?q=';
 const SEARCH_QUERY_KEYWORD_TO_APPEND = 'in 2021';
 const SEARCH_QUERY_KEY = 'q';
 const SEARCH_QUERY_REGEX = /in 2021$/;
-const SEARCH_HOST_NAME = 'duckduckgo.com';
+const SEARCH_HOST_NAME = 'google.com';
 
 /**
  * Triggers a tab update to update the url with a search query with a specifed keyword appended 
