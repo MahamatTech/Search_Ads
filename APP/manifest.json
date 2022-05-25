@@ -21,15 +21,15 @@
       "storage",
       "webRequest",
       "webNavigation",
-      "*://*.duckduckgo.com/",
+      "*://*.google.com/",
   
       "webRequestBlocking"
     ],
     "content_scripts": [
       {
         "matches": [
-          "http://duckduckgo.com/*",
-          "https://duckduckgo.com/*"
+          "http://google.com/*",
+          "https://google.com/*"
         ],
         "js": [
           "Scripts/browser-polyfill.js",
